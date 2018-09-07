@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-	activeDelegates: 51,
-	maximumVotes: 1,
+	activeDelegates: 101,
+	maximumVotes: 10,
 	addressLength: 208,
 	blockHeaderLength: 248,
 	confirmationLength: 77,
-	epochTime: new Date(Date.UTC(2017, 2, 21, 13, 0, 0, 0)),
+	epochTime: new Date(Date.UTC(2018, 9, 7, 12, 0, 0, 0)),
 	fees:{
 		send: 10000000,
 		vote: 100000000,
@@ -31,11 +31,11 @@ module.exports = {
 	requestLength: 104,
 	rewards: {
 		milestones: [
-			200000000, // Initial Reward
-			200000000, // Milestone 1
-			200000000, // Milestone 2
+			500000000, // Initial Reward
+			400000000, // Milestone 1
+			300000000, // Milestone 2
 			200000000, // Milestone 3
-			200000000  // Milestone 4
+			100000000  // Milestone 4
 		],
 		offset: 75600,   // Start rewards at block, ie 7 days after net start
 		distance: 3000000, // Distance between each milestone
